@@ -1,7 +1,6 @@
+[![PyPI version](https://badge.fury.io/py/pycalil.svg)](https://badge.fury.io/py/pycalil)
 # pycalil
 カーリル図書館APIをpythonから使えるようにしたパッケージ
-[![PyPI version](https://badge.fury.io/py/polar-bear.svg)](https://badge.fury.io/py/pycalil)
-[![Python Versions](https://img.shields.io/pypi/pyversions/polar_bear.svg)](https://pypi.org/project/pycalil/)
 
 ※事前に[APIキーの取得](https://calil.jp/api/dashboard/)をお願いします
 ## Requirement
