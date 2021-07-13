@@ -100,14 +100,3 @@ class Pycalil(object):
         
         r = requests.get(check_url, params=payload)
         return r.text
-
-# インスタンス作成
-#t = Pycalil(appkey)
-
-# 本のisbnで検索する
-# t.check([4003400313], ["Tokyo_NDL"])
-
-# 35.65759633476777, 139.702500164516
-# 図書館の場所のを検索する
-#t.library(pref="埼玉県", city="さいたま市")
-#t.library(geocode="139.744202,35.6783682")
