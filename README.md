@@ -45,7 +45,7 @@ json([{"category": "SMALL", "city": "青森市", "short": "中央市民センタ
 None
 """
 
-# check：https://api.calil.jp/check
+# check：https://api.calil.jp/check　　-----------------------------
 # 図書館に対して蔵書の有無と貸出状況を問い合わせる 
 
 # isbn：第一引数。書籍のISBNを指定する
