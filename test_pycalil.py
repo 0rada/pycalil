@@ -1,8 +1,8 @@
 from typing import get_args
 from pycalil import Pycalil
 
-appkey = "your apikey"
-calil = Pycalil(appkey)
+apikey = "your apikey"
+calil = Pycalil(apikey)
 
 print(calil.library(pref="青森県", city="青森市"))
 print(calil.library(systemid="Aomori_Pref"))
