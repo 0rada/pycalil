@@ -60,7 +60,7 @@ json({"session": "2461f8923302e3dfd5e2a52bec9dad57", "continue": 0, "books": {"4
 ```
 
 ## Note
-APIに関して引数などの詳しい仕様
+APIに関して引数や戻り値などの詳しい仕様
 - https://calil.jp/doc/api_ref.html
 
 ## Author
