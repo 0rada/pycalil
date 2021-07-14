@@ -13,6 +13,11 @@ pip install pycalil
 
 ## Usage
 ```python
+from pycalil import Pycalil
+
+appkey = "your apikey"
+calil = Pycalil(appkey)
+
 # library：https://api.calil.jp/library -----------------------------
 # 指定した条件で図書館の一覧を取得する
 
