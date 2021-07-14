@@ -36,7 +36,7 @@ print(calil.library(systemid="Aomori_Pref"))
 json([{"category": "LARGE", "city": "青森市", "short": "青森県立図書館　", "libkey": "青県図", "pref": "青森県", "primary": true, "faid": "FA012896", "geocode": "140.7385051,40.7952048", "systemid": "Aomori_Pref", "address": "青森県青森市荒川藤戸119-7 ", "libid": "100287", "tel": "017-739-4211", "systemname": "青森県立図書館", "isil": "JP-1000175", "post": "030-0184", "url_pc": "http://www.plib.pref.aomori.lg.jp/top/index.html", "formal": "青森県立図書館　"}]);
 """
 
-# geocode：緯度、軽度で指定する
+# geocode：緯度、経度で指定する
 print(calil.library(geocode="136.7163027,35.390516"))
 
 """
