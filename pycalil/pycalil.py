@@ -9,8 +9,8 @@ import requests
 
 class Pycalil(object):
 
-    def __init__(self, appkey):
-        self.appkey = appkey
+    def __init__(self, apikey):
+        self.apikey = apikey
 
     def library(self, pref=None, city=None, systemid=None, geocode=None, format="json", callback="json", limit=None):
         """
@@ -49,7 +49,7 @@ class Pycalil(object):
 
         # parameters
         payload = {
-            "appkey": self.appkey,
+            "appkey": self.apikey,
             "pref" : pref,
             "city" : city,
             "systemid" : systemid,
@@ -91,23 +91,12 @@ class Pycalil(object):
 
         # parameters
         payload = {
-            "appkey" : self.appkey,
+            "appkey" : self.apikey,
             "isbn" : ",".join(map(str, isbn)),
-            "systemid" : ",".join(systemid), # Tokyo_Chiyoda
+            "systemid" : ",".join(systemid),
             "format" : format,
             "callback" : callback,
         }
         
         r = requests.get(check_url, params=payload)
         return r.text
-
-# インスタンス作成
-#t = Pycalil(appkey)
-
-# 本のisbnで検索する
-# t.check([4003400313], ["Tokyo_NDL"])
-
-# 35.65759633476777, 139.702500164516
-# 図書館の場所のを検索する
-#t.library(pref="埼玉県", city="さいたま市")
-#t.library(geocode="139.744202,35.6783682")
