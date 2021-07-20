@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pycalil",
-    version="1.2",
+    version="1.4",
     author="warada0209",
     author_email="warada0209@gmail.com",
     description="A package that enables the Calil Library API to be used from Python.",
